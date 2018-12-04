@@ -69,11 +69,6 @@ l3=list()
 
 x=train1['MPG'] 
 x_test=test['MPG']
-class(x)
-class(x_test)
-dim(x)
-x_test
-x['ll']<-(train1['Weight'])
 colnames(x_test)
 
 for (j in c(20,100)) {
